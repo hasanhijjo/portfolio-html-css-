@@ -1,0 +1,425 @@
+++<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fianl | Project</title>
+    <link rel="stylesheet" href="./css/fianl.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap"
+        rel="stylesheet">
+</head>
+<script>
+
+    function validateForm() {
+        var x = document.forms["myForm"]["input1"].value;
+        var y = document.forms["myForm"]["input2"].value;
+        var r = document.forms["myForm"]["input3"].value;
+        var w = document.forms["myForm"]["Budget"].value;
+        var u = document.forms["myForm"]["textarea"].value;
+
+        if (x == "" || x == null || y == "" || y == null || r == "" || r == null || w == "" || w == null || u == "" || u == null) {
+            document.getElementById("name").style.outline = "1px solid red"
+            document.getElementById("name1").style.outline = "1px solid red"
+            document.getElementById("name2").style.outline = "1px solid red"
+            document.getElementById("name3").style.outline = "1px solid red"
+            document.getElementById("name4").style.outline = "1px solid red"
+
+            return false;
+        }
+    }
+
+</script>
+
+<body>
+    <header id="head">
+        <div class="logo">
+            <a href="./final.html">
+                <p>Cod <i class="fa-sharp fa-solid fa-bars"></i>r</p>
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#section2">About Me</a></li>
+                <li><a href="#section3">Services</a></li>
+                <li><a href="#section5">Portfolio</a></li>
+                <li><a href="#section6">Testimonials</a></li>
+                <li><a href="#section8">Blog</a></li>
+                <li><a href="#footer">Contact Us</a></li>
+                <button class="buttunmenu">Hire Me!</button>
+
+            </ul>
+        </nav>
+    </header>
+    <section id="section1">
+        <div class="main">
+            <div class="arrow"><img src="./img/arrow-long.png" alt="img"></div>
+            <div class="blackmanimg">
+                <img id="img1" src="./img/Group 3.png" alt="img">
+            </div>
+            <div class="boxmain">
+                <h1> Mr. John Weary</h1>
+                <h2>A Professional Web Developer and UI/UX Designer.</h2>
+                <div id="HireMe">Hello, I am</div>
+                <button class="orangebutton">Download CV</button>
+                <button class="blackbutton">My Work</button>
+            </div>
+        </div>
+    </section>
+    <section id="section2">
+        <div class="AboutMe">
+            <div class="img407">
+            </div>
+            <div class="Clapperboard">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <p><span>06<br></span>Years of<br> Experience</p>
+            </div>
+            <div class="readAbout">
+                <p id="p2">Read About My Life<br> Struggle Story!</p>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                    totam rem aperiam, eaque ipsa quae ab illo inventore
+                    veritatis et is the quasi architecto beatae vitae dicta sunt explicabo.</p>
+                <P>WORDPRESS 100%</P>
+                <div id="line">
+                    <div id="line1"></div>
+                </div>
+                <P>HTML 75%</P>
+                <div id="line">
+                    <div id="line2"></div>
+                </div>
+                <P>PHP 85%</P>
+                <div id="line">
+                    <div id="line3"></div>
+                </div>
+                <p>CSS 95%</p>
+                <div id="line">
+                    <div id="line4"></div>
+                </div>
+                <div id="buttonAboutMe">
+                    <button class="orangebutton">Hire Me!</button>
+                    <button class="blackbutton">About Me</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section3">
+        <div class="Services">
+            <div class="stroke">
+                <svg height="215" width="55">
+                    <g fill="none" stroke="red" stroke-width="2">
+                        <path stroke-dasharray="15,20" d="M55 47 l000 750"></path>
+                    </g>
+                </svg>
+            </div>
+            <h2>Our Services</h2>
+            <P>Sed ut perspiciatis unde omnis iste natus error sit voluptatem totam rem aperiam, eaque ipsa quae ab illo
+                inventore
+                veritatis et is the quasi architecto beatae vitae dicta sunt explicabo.</P>
+            <div class="container1">
+                <div class="service">
+                    <i style="    font-size: 50px;
+    font-size: 50px;
+" class="fa-brands fa-wordpress-simple"></i>
+                    <p>Wordpress</p>
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </div>
+                <div class="service">
+                    <i class="fa-solid fa-code"></i>
+                    <p>Html</p>
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </div>
+                <div class="service">
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <p>Web Developement</p>
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </div>
+                <div class="service">
+                    <i class="brakts">{ }</i>
+                    <p>css</p>
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </div>
+                <div class="service">
+                    <i class="fa-solid fa-code"></i>
+                    <p>PHP</p>
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </div>
+                <div class="service">
+                    <i class="fa-solid fa-puzzle-piece"></i>
+                    <p>Problem Solving</p>
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </div>
+            </div>
+            <button class="orangebutton" id="ViewAll">View All</button>
+        </div>
+    </section>
+    <section id="section4">
+        <div class="section4">
+            <div class="item">
+                <center><span> 06<br></span>
+                    Years Experience</center>
+            </div>
+            <div class="item">
+                <center><span>30<br></span>
+                    Awards</center>
+            </div>
+            <div class="item">
+                <center><span>68<br></span>
+                    Projects</center>
+            </div>
+            <div class="item">
+                <center><span>50+<br></span>
+                    Clients</center>
+            </div>
+        </div>
+    </section>
+    <section id="section5">
+        <div class="Portfolio">
+            <div class="stroke">
+                <svg height="215" width="55">
+                    <g fill="none" stroke="red" stroke-width="2">
+                        <path stroke-dasharray="15,20" d="M55 47 l000 750"></path>
+                    </g>
+                </svg>
+            </div>
+            <div class="TitleSection">
+                <P><span id="p2">Our Portfolio</span><br>
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem totam rem aperiam, eaque ipsa quae ab
+                    illo
+                    inventore
+                    veritatis et is the quasi architecto beatae vitae dicta sunt explicabo.</P>
+            </div>
+            <div class="options">
+                <div class="optionstext">ALL</div>
+                <div class="optionstext">Web development</div>
+                <div class="optionstext">
+                    HTML </div>
+                <div class="optionstext"> UI/UX</div>
+                <div class="optionstext">Web Design</div>
+            </div>
+            <div class="imges_Container">
+                <div class="imgPortfolio">
+                    <img src="./img/dribbble-thumbnail-1.png" alt="">
+                </div>
+                <div class="imgPortfolio">
+                    <img src="./img/dribbble-thumbnail-2.png" alt="">
+                </div>
+                <div class="imgPortfolio">
+                    <img src="./img/dribbble-thumbnail-3.png" alt="">
+                </div>
+                <div class="imgPortfolio">
+                    <img src="./img/img4.png" alt="">
+                </div>
+                <div class="imgPortfolio" id="imgtext">
+                    <center>
+                        <p id="p1">Application Development<br>
+                            <span>HTML, CSS, jQuery</span>
+                        </p>
+                    </center>
+                    <center>
+                        <p id="p3">Lorem ipsum dolor sit amet,Stet clita kasd<br>
+                            lorem ipsum dolor sit amet.
+                            sed diam eirmod<br> tempor dolore.</p>
+                    </center>
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </div>
+                <div class="imgPortfolio">
+                    <img src="./img/img6.png" alt="">
+                </div>
+            </div>
+            <button class="orangebutton" id="ViewAll">View All</button>
+        </div>
+    </section>
+    <section id="section6">
+        <div class="Testimonials">
+            <div class="stroke">
+                <svg height="215" width="55">
+                    <g fill="none" stroke="red" stroke-width="2">
+                        <path stroke-dasharray="15,20" d="M55 47 l000 750"></path>
+                    </g>
+                </svg>
+            </div>
+            <div class="TitleSection">
+                <P><span id="p2">Testimonials</span><br>
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem totam rem aperiam, eaque ipsa quae ab
+                    illo
+                    inventore
+                    veritatis et is the quasi architecto beatae vitae dicta sunt explicabo.</P>
+            </div>
+            <div class="TitleTestimonials">
+                <div class="imgTestimonials">
+                    <img src="./img/manbllue.png" alt="">
+                </div>
+                <P><span id="p1">John Doe</span><br>
+                    CEO Abc Company<br>
+                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+                    deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non
+                    provident, similique sunt in
+                    culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum
+                    facilis est et
+                    expedita distinctio.</P>
+            </div>
+            <div id="TitleTestimonials2" class="TitleTestimonials">
+                <div class="imgTestimonials">
+                    <img src="./img/Image 19.png" alt="">
+                </div>
+                <P><span id="p1">John Doe</span><br>
+                    CEO Abc Company<br>
+                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+                    deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non
+                    provident, similique sunt in
+                    culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum
+                    facilis est et
+                    expedita distinctio.</P>
+            </div>
+            <div id="TitleTestimonials3" class="TitleTestimonials">
+                <div class="imgTestimonials">
+                    <img src="./img/Image -1.png" alt="">
+                </div>
+                <P><span id="p1">John Doe</span><br>
+                    CEO Abc Company<br>
+                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+                    deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non
+                    provident, similique sunt in
+                    culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum
+                    facilis est et
+                    expedita distinctio.</P>
+            </div>
+            <div class="containerMovement">
+                <div class="Movement"></div>
+                <div class="Movement"></div>
+                <div class="Movement"></div>
+            </div>
+        </div>
+    </section>
+    <section id="section7">
+        <div class="container">
+            <div class="available ">
+                <p class="question">Have any Project in Mind?</p>
+                <p class="free">I'm Available for Freelancing</p>
+            </div>
+            <button id="hirebotton" class="orangebutton">Hire Me!</button>
+        </div>
+    </section>
+    <section id="section8">
+        <div class="LatestBlog">
+            <div class="stroke">
+                <svg height="215" width="55">
+                    <g fill="none" stroke="red" stroke-width="2">
+                        <path stroke-dasharray="15,20" d="M55 47 l000 750"></path>
+                    </g>
+                </svg>
+            </div>
+            <div class="TitleSection">
+                <P><span id="p2">Latest Blog</span><br>
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem totam rem aperiam, eaque ipsa quae ab
+                    illo inventore
+                    veritatis et is the quasi architecto beatae vitae dicta sunt explicabo.</P>
+            </div>
+            <div class="LatestBlog-container">
+                <div class="optionstitel">
+                    <div class="imgLatestBlog">
+                        <img src="./img/post-6.png" alt="img">
+                        <P>26th October,2019 <br>
+                            <span id="October"> I Used The Web For A Day On A
+                                50 MB Budget</span><br>
+                            Learn More<i class="fa-solid fa-arrow-right-long"></i>
+                        </P>
+                    </div>
+                </div>
+                <div class="optionstitel">
+                    <div class="imgLatestBlog">
+                        <img src="./img/post-1.png" alt="img">
+                        <P>26th October,2019 <br>
+                            <span id="October"> I Used The Web For A Day On A
+                                50 MB Budget</span><br>
+                            Learn More<i class="fa-solid fa-arrow-right-long"></i>
+                        </P>
+                    </div>
+                </div>
+                <div class="optionstitel">
+                    <div class="imgLatestBlog">
+                        <img src="./img/post-1.png" alt="img">
+                        <P>26th October,2019 <br>
+                            <span> I Used The Web For A Day On A
+                                50 MB Budget</span><br>
+                            Learn More<i class="fa-solid fa-arrow-right-long"></i>
+                        </P>
+                    </div>
+                </div>
+            </div>
+            <button class="orangebutton" id="ViewAll">View All</button>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="ContactUs">
+            <div class="textcontact">
+                <div>
+                    <p>
+                        <span>Contact Us</span><br>
+                        <span id="fontsize">Let's make something new, different and more meaningful<br>
+                            or make thing more visual or conceptual?</span>
+                    </p>
+                </div>
+                <div>
+                    <div class="imgfooter"><img src="./img/phone.png"></div>
+                    <P></P>
+                    <p class="font"><span>Call Me</span><br>
+                        +123 456 7890</p>
+                </div>
+                <div>
+                    <div class="imgfooter"><img src="./img/email-line.png"></div>
+                    <p class="font"><span>Email</span><br>
+                        info@coder.com</p>
+                </div>
+                <div>
+                    <div class="imgfooter"><img src="./img/location-3.png"></div>
+                    <p class="font">
+                        <span>Address</span><br> Division St, New York,<br>
+                        NY 10002, USA
+                    </p>
+                </div>
+                <p class="font" id="Find">Find Me on</p>
+            </div>
+            <p id="Drop"><span>Drop a Line</span></p>
+
+            <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+                <div class="input">
+                    <input class="text" type="text" name="input1" id="name" placeholder="Name">
+                    <input class="text" type="email" name="input2" id="name1" placeholder="Email">
+                    <input class="text" type="text" name="input3" id="name2" placeholder="Phone">
+                    <select name="Budget" id="name3">
+                        <option value="Budget0">Budget</option>
+                        <option value="Budget1">100$</option>
+                        <option value="Budget2">300$</option>
+                        <option value="Budget3">500$</option>
+                        <option value="Budget4">1000$</option>
+                    </select>
+                    <textarea placeholder="Message" name="textarea" id="name4"></textarea>
+                </div>
+                <input type="submit" value="submit" class="orangebutton" id="submit">
+            </form>
+            <div class="imgfooter2">
+                <img src="./img/behance.png" alt="">
+                <img src="./img/dribbble.png" alt="">
+                <img src="./img/insta.png" alt="">
+                <img src="./img/linked in.png" alt="">
+                <img src="./img/pinterest.png" alt="">
+            </div>
+            <p id="Copyright">Copyright ©2019Coder. All Rights Reserved.</p>
+            <div class="Gotop">
+                <a href="#head">^</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
